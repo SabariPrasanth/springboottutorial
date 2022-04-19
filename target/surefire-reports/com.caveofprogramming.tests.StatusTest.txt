@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.caveofprogramming.tests.StatusTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.631 s <<< FAILURE! - in com.caveofprogramming.tests.StatusTest
+initializationError(com.caveofprogramming.tests.StatusTest)  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.IllegalStateException: @WebAppConfiguration should only be used with @SpringBootTest when @SpringBootTest is configured with a mock web environment. Please remove @WebAppConfiguration or reconfigure @SpringBootTest.
+
